@@ -4,11 +4,11 @@ A modern React application demonstrating data-fetching with SWR, component compo
 
 ## Features
 
-- 🚀 **Modern Stack**: Built with Next.js 15, React 18, TypeScript, and Mantine 7
+- 🆕 **Modern Stack**: Built with Next.js 15, React 18, TypeScript, and Mantine 7
 - 📊 **Data Fetching**: Uses SWR for efficient data fetching with caching and revalidation
 - 🔍 **Advanced Filtering**: Live text search on name & email, company dropdown filter
 - 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- 🎨 **Dual View Modes**: Switch between card grid and table layouts
+- 🪟 **Dual View Modes**: Switch between card grid and table layouts
 - ⚡ **Performance Optimized**: Skeleton loading states, memoized computations, and optimized bundle
 - 🔧 **TypeScript Generics**: Fully typed with reusable generic hooks
 - ♿ **Accessible**: Built with accessibility best practices using Mantine components
@@ -79,30 +79,6 @@ npm start
 └── README.md
 ```
 
-## Key Features Explained
-
-### Data Fetching with SWR
-- Uses SWR for automatic caching, revalidation, and error handling
-- Custom hook with TypeScript generics for type safety
-- Optimized with deduplication and smart revalidation strategies
-
-### Filtering & Search
-- **Live Search**: Real-time filtering on user name and email
-- **Company Filter**: Dropdown with all unique companies
-- **Sorting**: Toggle between ascending, descending, and no sort on names
-- **Visual Feedback**: Active filters shown as badges
-
-### Responsive Design
-- **Card View**: Responsive grid that adapts to screen size
-- **Table View**: Horizontal scrolling on smaller screens
-- **Mobile-First**: Optimized for mobile devices with touch-friendly interactions
-
-### Performance Optimizations
-- Memoized filtering and sorting computations
-- Skeleton loading states during data fetching
-- Optimized bundle with Next.js package imports
-- Efficient re-renders with proper React patterns
-
 ## Pagination Strategy for 10,000+ Rows
 
 For handling large datasets (10,000+ users), here's the recommended approach:
@@ -154,27 +130,13 @@ The application is optimized for:
 - **Largest Contentful Paint**: < 2.5s
 - **Cumulative Layout Shift**: < 0.1
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-```
-```
-
-I've created a comprehensive React application that demonstrates all the requested features:
 
 ## ✅ **Functional Requirements Met:**
 1. **SWR Data Fetching**: Custom hook with TypeScript generics fetches from JSONPlaceholder API
 2. **Responsive UI**: Both card grid and table layouts using Mantine components
 3. **Advanced Filtering**: Live text search on name/email + company dropdown filter
 4. **Sorting**: Toggle sort by name (ascending/descending/none)
+
 
 ## ✅ **Technical Requirements:**
 - **React 18+** with Next.js 15 App Router
@@ -187,13 +149,3 @@ I've created a comprehensive React application that demonstrates all the request
 - **Performance Optimized**: Memoized computations, optimized imports
 - **Accessibility**: Semantic HTML, proper ARIA labels
 - **Mobile-First**: Responsive design that works on all devices
-
-## 🚀 **Key Highlights:**
-- **Dual View Modes**: Switch between cards and table
-- **Visual Filter Feedback**: Active filters shown as badges
-- **Error Handling**: Graceful error states with retry options
-- **Type Safety**: Full TypeScript coverage with generics
-- **Modern UX**: Smooth interactions and polished design
-
-The README includes detailed setup instructions and a comprehensive pagination strategy for handling 10,000+ rows using server-side pagination, virtual scrolling, and infinite loading patterns.
-
