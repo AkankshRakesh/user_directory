@@ -4,9 +4,8 @@ import { ColorSchemeScript, MantineProvider } from "@mantine/core"
 import { theme } from "./theme"
 
 export const metadata = {
-  title: "User Directory - Mantine Demo",
-  description: "A modern React application demonstrating data-fetching with SWR and Mantine UI",
-    generator: 'v0.dev'
+  title: "User Directory",
+  description: "A modern React application demonstrating data-fetching with SWR and Mantine UI"
 }
 
 export default function RootLayout({
