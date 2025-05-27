@@ -33,7 +33,7 @@ A modern React application demonstrating data-fetching with SWR, component compo
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AkankshRakesh/user_directory
 cd mantine-user-dashboard
 ```
 
